@@ -5,3 +5,6 @@
 
 
 ## https://opentutorials.org/course/3186 >> 생활코딩님의 파이썬 실전 프로젝트 모음
+
+
+## 일단 지금 만들어놓은 환경 1. powershell >> jupyter notebook ( python)
