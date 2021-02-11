@@ -1,0 +1,464 @@
+  Program:
+
+Input -> Computation -> Output
+
+Language:
+C --> Haskell (functional spectrum)
+C --> Python (ease of use spectrum)
+
+C --> C++
+
+GC
+
+What is a computer:
+Processor (stream of instructions)
+RAM(Instructions + Data)
+
+example : hello world programming >> 그러니까 터미널을 이용해서 hello world를 출력하는 프로그램을 C로 구현하고 그걸 데이터 베이스에서 어떻게 이루어 지는지 확인 하면서 설명한다. 
+명령 자체와 같은 메모리 공간이 있다. 
+
+int main() {
+  printf("hello world"\n);
+}
+
+Program:
+.text = Instructions
+stack = local vars (control flow)
+bss = Static Data
+heap = malloc
+
+void a() {
+  int variable_on_the_stack;
+  // return by popping off the stack
+  }
+ void b(){
+ }
+
+int main() {
+  a(); // pushes the return location to the stack
+  b();
+}
+
+Programming for work!
+
+Whta does a sofeware engineer do?
+>> 직접 알고리즘을 작성하는 것은 아니다
+- Don't write algorithms
+
+기본적으로 이들은 번역가이다.
+Translators:
+"Business Requirements" -> "Code"
+
+example: Ruby on Rails = "Web apps"
+CRUD apps <-- Create, Read, Update, Delete
+
+Forntend (View)
+Business Logic(Controller)
+Database (Model)
+
+What you will learn in bootcamp
+for example : 부트 캠프에 간 사람은 comma ai 에서 일자리를 얻지 못합니다.
+이런 작업을 수행하지 않기 때문이다.
+
+이 멍청한 패러다임은 곧 ai로 대체될것 같다.
+백 스페이스의 로우 브로우 버전을 작성하고 싶다면
+
+1. Build a CRUD app contracting firm
+2. Record all the inputs of my developers
+3. Train AI model to translate "Business Logic" -> "Code"
+
+이건 정말 쓰레기다 약간의 돈을 받을 수는 있다. 그냥 복사 기계같은 느낌이다.
+
+기본적으로 컴퓨터에 대해 아무것도 모르고 
+Ruby
+React
+(heavy framework) 그냥 이상한 구문을 외워서 하는 거다.
+좀 더 재밋는걸로 가자.
+
+what is hacking?
+
+Input -> System -> Output
+
+What input to the system achieves my desired outcome?
+
+해킹이 많이 발생하는 이유는 시스템을 확인하지 않는것
+내가 보내는 것이 무엇이고 시스템이 작동하는 것을 이해해야한다.
+
+Domain -> Fuction -> Range
+y= f(x)
+>> 순수한 모델이다.
+대부분의 계산은 불확실성이 있다. 무언가를 완전히 이해할 수 있는 범위 내에서 출력해야한다.
+
+Figuring out how to make the function behave how you want.
+
+입력 시스템 출력이 원하는 대로 잘 되나
+입력을 잘제어하는지 잘 호출할수 있는지
+시스템의 경계에서 완전히 벗어난 일을 할 수 있다.
+내가 말하는건 입력 시스템 출력의 패러다임이다.
+
+프로그래밍을 잘하는 방법이 무엇인가? 많이 물어봅니다. 하지만 나는 뭘 원해서 물어보는것인지 잘 모르겟다.
+모든 웹 사이트에서 부트 캠프가 작동하는 crud 앱을 알려줍니다.
+
+이 기본 아이디어를 연습해라 >> 해킹을 잘하기 위해서는
+
+경쟁 프로그래밍은 어떤것에 관한것이 아니다. 
+새로운 알고리즘을 만들수 있다.
+패턴인식을 알게된다. >>이것은 실제로 그래프 동형 문제이다.
+
+cdfs는 여전히 재밌다.
+지능테스트라고 하기에는 너무 반복적인 속임수다.
+일주일에 40시간은 연습하면 충분히 가능하다.
+
+해킹과 코딩은 모두 새로운 기술을 배우고 적용하는 것입니다.
+
+반복은 괜찮은 것에 반한다.
+
+내가 이틀전에 한 방송에서의 clang에 for 루프를 추가한 곳
+이정도만 해도 많은 돈을 받을 수 있다.
+
+High Brow Sofeware Engineering
+--- 이라는것
+1.Understand a complex system
+2.Modify the system to add a feature >. 기능을 추가하도록 시스템을 수정한다.
+3.Ship the new system (test well and stuff) > 테스트 웰과 같은 의미의 새로운 시스템을 제공합니다.
+
+>> 소프트웨어 엔지니어링과 같은 많은 계약이 있다.
+
+clang for loop 챌린지 처럼 ( 내가보여준) 스스로에게 도전해봐라.
+
+ML 엔지니어가 되고싶다.
+Machine Learning Engineer
+----
+1. Download a paper 
+2. Implement it >> 그것을 구현해서
+3. Keep doing this until you have skills >> 이 기술을 가질때까지 이걸 계속하라.
+
+all exmaple:
+How to get a girlfriend
+----
+
+Define "get a girlfriend"
+
+Input -> System -> Output
+
+Women -> "female mind" ->
+  iMessage saying "so we're officiall now right?"
+ 
+1. 100: Messages sent to woemen
+30%
+2. 30:Replies
+1/6 = 18%
+3. 5:Dates
+40%
+4. 2:Lays
+50%
+5. 1:Girlfriend
+  
+Funnels ( 깔때기)
+----
+고전적인 판매이다.
+
+Sell Cars
+
+1. 10,000 Top of the funnel (advertising to many)
+1%
+2. 100: Visit the dealership
+5%
+3. 5: Buy cars
+
+>> vim 레슨은 아니다.
+
+Getting money
+----
+
+Capitalism (자본주의 ) is based around consent.
+
+Buyer
+Seller
+
+Both parties must consent to the transaction. 
+
+Getting money in a capitalist system: // 자본주의 체제에서 돈을 벌어
+  Convince oothers to give it to you. // 당신에게 돈을 주도록 설득하느 것이다.
+  
+How do you make $1,000,000 from a product?
+----
+
+$1 from 1,000,000 people
+- Online only
+%1,000 from 1,000 people
+- A couple phone calls can be spend closing the deal
+
+%1,000,000 from 1 person
+ -Tons can be spent closing the deal 
+
+now make it look fancy put a lambo on the background and post to instagram is the new warrent buffett
+>> I mean but like this stuff is so simpele
+
+기본적으로 알아햐 한다. 여기 오래 앉아서 입력할수있다.
+컴퓨터가 작동하는 방식이다. 이게 -- 이러한 컴퓨터 같은 사고방식으로 프로그래밍을 해야된다는 말인가?
+
+Instagram is based around consent.
+
+Follower
+
+Infllluencer >> 이런 구조가 기본적인 경제학의 구조다.
+
+Convince 1,000,000 people to subscribe to you
+
+1. Appealing content ( 콘텐츠로 어필한다.)
+  "Novelty"
+  "Beauty"
+  "Sexuallity"
+  "Funny"
+  
+2. Be famous ( 어제 내 일을 기억한다면 좋은 방법이다.
+  FOMO <-- fear (실종에 유명한 사람) (of missing something positive)
+  
+  "car crash" <-- fear of missing something negative)
+  
+3. Dark arts
+  Buy followers
+    Cracked accounts
+    New accounts
+  Make your insta private
+    What's behind the curtain?
+      (follow to find out)
+
+동적 프로그래미이에 대해서 설명해 달라
+다이나믹 프로그램을 위한 그래픽을 만지는 사람들
+기본적인 아이디어는 당신이 어떤 기능을 가지고 있다고 말하는 것이다.
+
+output = f(x, y)
+
+f(x, y):
+  f(x-1, y-1)
+
+Wasting time:
+----
+
+Existentialism -- you make your own meaining
+
+실존주의
+
+자기 철학은 시간낭비 같은 것은 없다는 것이다.
+멍청한 것처럼 시간 낭비를 하는 것은 대단하다.
+
+Don't fall in funnels. >> 다른 사람들의 깔대기에 빠지지 마라.
+Don't be in skinner boxes. >> 스키너 상자 안에 잇지 말고 영향을 받지 마세요.
+Don'tbe influenced by advertising. >> ''
+
+알고리즘 복잡성을 설명할 수 있습니까?
+What is a algorithm complexity
+
+그래프 >> 생각하는 방식
+
+정렬은 일반적으로 복잡성에 대해 생각하는 좋은 방법이다.
+
+버블 정렬에 대해서 알아보자.
+
+bubble sort: O(n^2)
+for i in 1..n:
+  for j in+1..n:
+    if j < i:
+      swap arr[i] and arr[j]
+>> 따라서 다른 정렬 알고리즘을 기본적으로 가지고 있는 다른 정렬 알고리즘을 사용할 수 있습니다.
+만약에 내가 아는 목록을 정렬 하고 싶다.
+>> 이 루프는 n 루프인데 n 제곱 정렬 알고리즘이다.
+tree:
+
+n inserts into a log(n) sized tree // n 삽입 로그인 크기의 트리이므로 실제로 정렬 알고리즘이 있습니다.
+
+7 3 4 6 10 5
+
+height: log(n)
+--   7
+-- 3    10
+--    4
+--  5  6
+
+0(n * log(n)) >> n log n 시간에 있는 알고리즘은 기본적으로 이것의 변형이 있습니다.
+
+O(n) sort: // 해시 정렬인지 이름이 뭔지 모르겠어요
+1 and 100
+
+int cnt[100];
+for i in 0..n:
+  cnt[arr[i]] += 1
+for i in 0..sizeof(cnt):
+  print("i" * cnt[i]) // n으로 가는 하나의 루프가 있고 다음으로가는 하나의 루프가 있습니다.
+  
+배열의 가장 큰 요소가 배열의 길이와 함께 정렬은 n의 o가 아니라 가정합니다.
+100이 항상 n이지만 보통은 가장 작은 종류는 
+
+우리는 도약 코드를 해결하지 않는다.
+
+이진 검색 시간 복잡성을 설명 할 수 있습니까?
+
+binary search: // 이진검색 
+find an element in a sorted list
+
+n=7 // 여기서 n 은 7보다 훨씬 작습니다.
+
+O(log(n)) // 이진 검색이 로그 n 시간의 O를 실행하도록 배열
+
+// 해킹을 많이 하는 것
+오라클이 있다고 합시다.
+67을 찾고 싶다고 해보자
+1 7 9 22 45 67 98
+검색 67
+bsearch(arr, 67): // b 
+  lo = 0 //low
+  hi = len(arr) // high
+
+  
+  arr[mid] is 2 
+  lo = mid
+  
+  
+  // 그러면 일단 그걸로 간추려 지는데 배열에 mid가 22라고 가정해 보면 
+  일단 67은 22보다 크므로 이 중 1,7,9중 어느 것도 될 수 없다고 안다.
+  그러면 이제 low = mid 라고 말할 수 있다.
+  그렇게 추려지면 밑에 처럼 된다.
+
+22 45 67 98 // 이진 검색의 첫번째 실행
+
+bsearch(arr, 67): // b 
+  lo = 0 //low
+  hi = len(arr) // high
+
+  arr[mid] is 45 
+  lo = mid
+ 
+ // 다시 가정해보면 mid는 45이고 low 와 mid 가 같다는 것을 알 수있다.
+
+다시 실행
+
+45 67 98 
+
+mid = 67 // 이번엔 미드가 67 이다. 
+
+나무 정렬 처럼 비슷하게 생각할 수 있습니다. 
+대신 하나의 경로가 정렬 된 대신 연속적으로 나열되는 목록은 얼마나 많은 점프를 할 것인지
+로그인 트리를 가져와야 합니다.
+
+초급 ML 엔지니어가 잘 구현할 수 있는 종이는 무엇입니까?
+
+초보 ML 엔지니어를 구현할 수 있는 문서
+>> 잘 모르겠다. 데이터 과학은 대부분 bs이다.
+당신이 배우고 있다면 당신을 가르치는 사람 객체 수준의 기술처럼 옳은 것을 배우지 못할 것이다.
+도구가 사라지면 객체 수준 기수리이 사라진다.
+하지만 메타 수준의 기술을 배우고 있다면 그런 다음 그들은 결코 이건 세상에 대한
+진실 같아 넌 배우고 있니?
+
+Are you learning something from nature?
+Good
+Are you learning something from people?
+Bad
+
+Data Science:
+-- stats < -- sure 데이터 과학이 의미한다면
+-- tooling used at company x <-- no 데이터 과학이 사용된 도구와 의미가 같나?
+
+데이터가 무엇인지 질문에 답하는 것과 같습니다.
+
+
+
+물리학처럼 배우는 경우에 패러다임은 자연 학습에서 비롯됩니다.
+유명인 가십을 배우고 있다면 물리학이 좋다.
+사람들에 대한 임의의 헛소리는 나쁘다.
+
+대학의 창립 테마중 하나를 알고 우리는 사람들에 대한 권력을 거부합니다.
+
+College
+---
+
+Reject power over people
+-Ignored by the system
+-System cares deeply about power over people
+
+--- 
+자연에 대한 힘을 받아 들여라
+Embrace power over nature
+
+양의 실수 부분이 있는 복잡한 s에 대해 f를 정의합시다.
+
+함수의 모든 0을 어떻게 찾습니까?
+riemann 가설처럼 이상하게 보이는..
+내 수학 지식의 대부분은 이산 수학에 있다.
+잘 몰라
+
+미적분에는 시뮬레이터를 작성할 수 있다는 것을 의미하는 방법을 정말 모른다.
+그런 다음 함수가 연속적이라고 가정하고 0을 이진 검색 할 수 있습니다.
+
+우리는 정확히 이진 검색을 할 수 없습니다.
+
+잘 모르겟다.
+
+배고픈 상태를 유지하는 방법에 어떤 책을 추천합니까?
+elon은 이것에 대해 많이 말하고 있으므로 지식 트리를 만들고 싶습니다.
+
+Build a Knowlege tree
+----
+
+--New information fits into the tree // 내가 만난 사람들이 많은 것을 알고있는 그런 사람들이 항상
+그들이 아는것도 아니고 
+
+-- "interpolation" is possible //일부 노드가 있으면 나무의 메모가 무엇인지 정확히 알지 못하더라도
+근처에서 바로 보간 할 수 있습니다. ( 두개 이상의 객체를 연결할 수 있다.
+그래서 그것은 일종의 프레임 워크다.
+-- Framework for understanding
+
+Elon roots knowledge tree in Physics (modernist)
+I roots knowledge tree in Information (postmodernist)
+
+두가지 모두 좋은 방법이다.
+
+How to explain anything?
+
+여자 친구에게 올바른 입력 시스템 출력을 얻는 방법이 내 핵심이다.
+무엇이든 이해하기위한 패러다임
+
+Bezos // 베조가 기본적으로 이것을 사용합니다.
+----
+
+Operations mastermind:
+
+Amazon ships many packages
+"Amazon shipping plan" is "sales pitch" to UPS // 아마존은 UPS라는 것을 사용한다.
+UPS gives real rate
+Bezos wins // 이게 바로 아마존의 속임수다.
+
+그것은 전체 세계이고 나는 그것을 이해하기 위해 최선을 다합니다.
+
+나는 항상 그곳에서 관광객이 될 것 같아.
+
+내가 어렸을 때 다르게 하고 싶었던 한 가지는
+사실 나는 거의 완전히 거부하지 않았다
+인문학,,, 그런 애들은 트롤들임
+자라면서 깨달았을 때 대학과 특이점
+과학은 중요하지 않습니다. 역사상 비극은 믿을 수 없을 만큼 똑똑한 과학자들이
+핵폭탄을 발사한 다음 그 폭탄을 그들에게 복종하는 정치인에게 넘겨주엇다.
+왜 이것이 왜 정치이니이나 그런 종류의 사람들은 이 힘을 가지고 있나
+그래서 역사를 통틀어 변하고 있는 것 사람들에 대한 권력이다.
+
+Power over people used to be everything.
+Hunter gatherer tribe 
+만약 당신이 부족에 살았다면 수렵채집이나  
+당신을 알파 침팬지로 만든 것은 다른 침팬지들에 대한 힘을 가지고 있었다는 것입니다.
+자연에 대한 힘이 없는 넌 10배 더 나은 사냥꾼이 아니야
+10배 더 나은 사냥꾼은 없었지만 사람들을 지배하는 힘은 약해지고
+
+Power over People is waning
+Power over Nature is waxing ( waxing 겉보기 크기를 늘려서 
+
+
+
+
+
+
+
+
+
+
+
