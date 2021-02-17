@@ -8,3 +8,6 @@
 
 
 ## 일단 지금 만들어놓은 환경 1. powershell >> jupyter notebook ( python)
+
+
+## quizlet 영어단어 꾸준히 
