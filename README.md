@@ -11,3 +11,6 @@
 
 
 ## quizlet 영어단어 꾸준히 
+
+
+## https://brunch.co.kr/@othinkerbell/72
