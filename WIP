@@ -1,0 +1,196 @@
+## geo hot >> what is programming? twitch streaming ( Date of stream 31 Jul 2020)
+
+프로그래밍 이란 무엇일까? (What is Programming ?)
+
+일단 프로그램에 정의는 뭘까? (What is the definition of a program)
+
+Program :
+  Input -> Computation -> Output
+  Program takes in some input does some computation and produces some output
+  
+  there's an argument to be made that we should be teaching kids how to program using functional languages because
+  functional languages more closely match this paradigm.
+  but computers don't operate like functions computers operate a lot more like turing machines which we can get into too so maybe on one side of an extreme we have like
+  a high-level functional programming language like haskell and then let's not really go lower than c and assembly are..
+  c and assembly are the same structurally so you can treat c and assembly like the same ting see this kind of assembly with a
+  bit of syntactic sugar around it there's nothing in c that doesn't very clearly map to something in assembly
+  
+  let's say like languages span the gamut from c over to Haskell right
+  
+  Languages:
+    C --> Haskell (functional spectrum)
+    
+    then you can take languages and langeuages go in a few directions you can think of this a like the functional spectrum
+    and then maybe there's c over to python and this is kind of the ease of use spectrum.
+    
+    C --> Python (ease of use spectrum)
+    
+    so in the 90s it was believed that object oriented programming was going to be this revolution in Programming that's
+    C going to C plus plus right
+    
+    C --> C++
+    
+    basically and you can take it even further microsoft created these things called com objects and everything was
+    going to be an object to pass around small talk has this kind of paradigm also but it turned out this didn't actually
+    improve programmer productivity the thin that improved prgrammer productivity was garbage collection
+    
+    GC
+    
+    So when you think of a computer first I mean we kind of have to ask the question
+    
+    What is a computer:
+    Processor (Stream of instructions)
+    RAM(Instructions + Data)
+    
+    int main(){
+      printf("hello world\n");
+    }
+    
+    So you can think about it like you have processor that runs a stream of instructions
+    and then you have ram now you can break ram into two thing there's two things stored in ram there's
+    instructions and there's data so most computers really don't treat these things very differently when
+    I make a program like hello world and I compile this we can take a look in this program. and that's
+    not even all of it.
+    
+    Program:
+    text = Instructions
+    bss = Static Data
+    stack = Local vars ( control flow)
+    heap = malloc
+    
+    So we have a this section here this is actually the ascii for hello world so It's in the same memory
+    space as the instructions itself which does the printing of hello world here's the main fuction
+    It's called a dialed stub binder is actually what calls the printf so what is computer processor and
+    ram then you can break down your program has text It's called dot text which is the instructions. a
+    program has a stack program has a heap and a program has bss. so bss are thing like static data stack
+    and there's a heap. heaps you get to through malik stacks you get to through you know anything like
+    
+    this is a variable on the stack
+    
+    void a(){
+        int variable_on_the_stack;
+        //return by popping off the stack
+    }
+    
+    void b(){
+    }
+    
+    int main(){
+      a(); // pushes the return location to the stack << what this does
+      b();
+    }
+    
+    If I have a main fuction and I call a.
+    So you know when I call b down here this at the end here is returned.
+    Okay so this is a basic idea of what a computer is now there's a whole other direction you can
+    go with the idea of what is programming right?
+    there's a practical like I want to get a job right
+    
+    Programming for work!
+    
+    What does a software engineer do?
+    - Don't write algorithms
+    Translators:
+    "Business Requirements" -> "Code"
+    
+    very few people actually work on(write algorithm)..
+    there's some people who work on infrastructure but that's not a lot of people most software engineers are
+    basically translators right
+    they translate a language maybe we'll call the language business requirements into code and there's whole 
+    lot of frameworks which exist to make writing things that meet business requirements easier if you think
+    of a business requrement like you know we need a web page that's goning allow users to say leave a phone number
+    where we can call them back right
+    there's a lot of frameworks that are designed to do things like that if you wanted to write something on
+    that you could use someting like ruby on rails right web apps. there's also this prardigm of crud apps
+    and you get what crud stands for...
+    the four basic types of sql comaand
+    CRUD apps >> Create, Read, Update, Delete
+    So let's say we want to buld ruby on rails or similar
+    
+    Frontend(View)
+    
+    Database(Model)
+    
+    Business Logic(Controller)
+    
+    I want to buld a portal where my customers can add their phone number such that we'll be able to call them
+    they have to be able to update their phone number due to gdpr they have to be able to delete their profile
+    you can see how it translates to ghis right so this is terrible you're not
+    just same way the word doctor means so many things a doctor is someone who diagnoses a doctor someone who prescribes
+    a doctor or someone who has bedside manner a sofeware engineer like It's kind of misleaing and this almost nothing
+    like what you do in school. If you're in school and you're learning.
+    how to write binary search algorithms It's nothing like what you do in practice what you do in practice is
+    really you're translating from a really shitty language into these things that are like code and I meet these people
+    and this is what you're going to learn
+    
+    What you will learn in bootcamps
+    
+    No one Who's ever gone to a bootcamp would ever give get a job at comma ai because at comma you don't do
+    this.
+    nothing at comma looks like this stupig paradigm and this is the thing that's going to be replaced pretty
+    soon by ai. I thing about writing this like if you want to write the low brow version of backspace.
+    backspace is basically this I mean so here step one
+    
+    1. Build a CRUD app contacting firm
+    2. Record all the inputs of my developers(translators)
+    3. Train AI model to translate "Business Logic" -> "Code"
+    
+    So yeah if you guys are thinking about a job like this you know it's really trash work...
+    you can paid some amount of money doing it but your monks used to do this monks used to like spend time copying
+    they'd have to before they were printing presses they's have to well someone's got to copy the bible that's
+    practically what you're doing it's not very you know it's kind-of trash right.
+    notice how none of this has anything to do with this they're completely separate things
+    
+    a sofeware engineer a lot of these people who I meet know basically nothing about computers
+    
+    what they know about is how to translate this shitty language into code is almost giving it too much
+    credit and then here so let's think of like Ruby, React
+    
+    think of all the very heavy freameworks
+    it almost has nothing to do with programming and it's like you're memorizing weird syntax of someting stupid right
+    so let's talk about things that are that are more interesting all right so I learned this stuff from my
+    kind of hacking background..
+    
+    What is hacking?
+    
+    Input -> System -> Output
+    
+    What input to the system achives my desired outcome?
+    
+    Domain -> Funcion -> Range
+    y=f(x) // 대부분의 계산은 불확실성이 있다. 무언가를 완전히 이해할 수 있는 범위 내에서 출력해야 한다.
+    
+   Figuring out how to make the fuction behave how you want.
+   
+   //입력 시스템 출력이 원하는 대로 잘되나 입력을 잘 제어하는지 잘 호출할수 있는지 시스템의 경계에서 완전히 벗어난 일을 할 수 있다.
+   내가 말하는건 입력 시스템 출력의 패러다임이다.
+   프로그래밍을 잘하는 방법이 무엇인가? 많이 물어봅니다. 하지만 나는 뭘 원해서 물어보는 것인지 잘 모르겠다
+   모는 웹사이트에서 부트캠프가 작동하는 crud 앱을 알려줍니다.
+   
+   입력 시스템 출력의 패러다임을 잘 이해하고 이 기본 아이디어를 연습하면 해킹을 잘할 수 있다.
+   또한 새로운 알고리즘을 만들수 있게 된다.
+   패턴인실을 알게된다. >> 그래프 동형 문제..
+   
+   cdfs는 여전히 재밌다. 하지만 대회는 지능테스트라고 하기에는 너무 반복적인 속임수다.
+   일주일에 40시간은 연습하면 충분히 가능하다.
+   해킹과 코딩은 모두 새로운 기술을 배우고 적용하는 것이다.
+   반복으로인해서 괜찮은 실력을 가질수 있다.
+   내가 이틀전에 한 방송에서의 clang에 for 루프를 추가한 것 그러한 작업이 예시이다. ( 이정도만해도 많은 돈을 받을 수 있다.)
+   
+   High Brow Sofeware Engineering
+  --- 이라는것
+  1.Understand a complex system
+  2.Modify the system to add a feature >. 기능을 추가하도록 시스템을 수정한다.
+  3.Ship the new system (test well and stuff) > 테스트 웰과 같은 의미의 새로운 시스템을 제공합니다.
+  
+  >> 소프트웨어 엔지니어링과 같이 많은 계약이 있다.
+  clang for loop challenge 같이 스스로에게 도전해봐라
+  
+  Machine Learning Engineer
+  ----
+  1. Download a paper >> 알고리즘 논문을 다운받아서
+  2. Implement it >> 그것을 코드(모델)로 구현해 낸다.
+  3. Keep doing this until you have skills >> 이 기술을 가질때까지 이걸 계속하라.
+  
+  
+  
