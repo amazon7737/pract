@@ -157,76 +157,241 @@ Program :
     
     What input to the system achives my desired outcome?
     
+    Pure model:
     Domain -> Funcion -> Range
     y=f(x) // 대부분의 계산은 불확실성이 있다. 무언가를 완전히 이해할 수 있는 범위 내에서 출력해야 한다.
     
    Figuring out how to make the fuction behave how you want.
    
-   //입력 시스템 출력이 원하는 대로 잘되나 입력을 잘 제어하는지 잘 호출할수 있는지 시스템의 경계에서 완전히 벗어난 일을 할 수 있다.
-   내가 말하는건 입력 시스템 출력의 패러다임이다.
-   프로그래밍을 잘하는 방법이 무엇인가? 많이 물어봅니다. 하지만 나는 뭘 원해서 물어보는 것인지 잘 모르겠다
-   모는 웹사이트에서 부트캠프가 작동하는 crud 앱을 알려줍니다.
-   
-   입력 시스템 출력의 패러다임을 잘 이해하고 이 기본 아이디어를 연습하면 해킹을 잘할 수 있다.
-   또한 새로운 알고리즘을 만들수 있게 된다.
-   패턴인실을 알게된다. >> 그래프 동형 문제..
-   
-   cdfs는 여전히 재밌다. 하지만 대회는 지능테스트라고 하기에는 너무 반복적인 속임수다.
-   일주일에 40시간은 연습하면 충분히 가능하다.
-   해킹과 코딩은 모두 새로운 기술을 배우고 적용하는 것이다.
-   반복으로인해서 괜찮은 실력을 가질수 있다.
-   내가 이틀전에 한 방송에서의 clang에 for 루프를 추가한 것 그러한 작업이 예시이다. ( 이정도만해도 많은 돈을 받을 수 있다.)
+  
    
    High Brow Sofeware Engineering
-  --- 이라는것
+  ---
   1.Understand a complex system
   2.Modify the system to add a feature >. 기능을 추가하도록 시스템을 수정한다.
   3.Ship the new system (test well and stuff) > 테스트 웰과 같은 의미의 새로운 시스템을 제공합니다.
-  
-  >> 소프트웨어 엔지니어링과 같이 많은 계약이 있다.
-  clang for loop challenge 같이 스스로에게 도전해봐라
-  
+ 
   Machine Learning Engineer
   ----
   1. Download a paper >> 알고리즘 논문을 다운받아서
   2. Implement it >> 그것을 코드(모델)로 구현해 낸다.
   3. Keep doing this until you have skills >> 이 기술을 가질때까지 이걸 계속하라.
   
-  Data Science:
--- stats < -- sure 
--- tooling used at company x <-- no 
--- tooling that will go out of vogue <--no
-
-I root knowledge trees in information (post modernist)
-
-College
----
-
-Reject power over people
--Ignored by the system
--System cares deeply about power over people
--Embrace power over nature
-
-Don't fall in funnels.
-Don't be in skinner boxes.
-Don'tbe influenced by advertising.
-
-Existentialism -- you make your own meaning
-
---
-
- char *a() {
-    char *ret = (char *)malloc(6);
-    strcpy(ret, "hello");
-    return ret;
-}
-
-int main() {
-  int i=0;
-  while (1){
-    char *c = a();
-    if (i%10000 == 0) printf("%s\n", c);
-    free(c);
-    i++;
- // 메모리 누수에 대한 얘기 fix the bug
+  How to get a girlfriend
+  ----
   
+  Define: "get a girlfriend"
+  
+  Input -> System -> Output
+  
+  Women -> "female mind" -> iMessage saying "so we're official now right?"
+  
+  1.  100: Messages sent to women
+  30%
+  2. 30: Replies
+  1/6 = 18%
+  3. 5: Dates
+  40%
+  4. 2: Lays
+  50%
+  5. 1: Girlfriend
+  
+  Funnels
+  ----
+  
+  Sell cars
+  
+  1. 10,000: Top of the funnel (advertising to many)
+  1%
+  2. 100: Visit the dealership
+  5%
+  3. 5: Buy cars
+  
+  Getting money
+  ----
+  
+  Capitalism is based around consent.
+  
+  Buyer
+  Seller
+  
+  Both parties must consent to the transaction.
+  
+  Getting money in a capitalist system:
+    Convince others to give it to you.
+    
+  How do you make $1,000,000 from a product?
+  
+  $1 from 1,000,000 people
+  - Online only
+  $1,000 from 1,000 people
+  - A couple phone calls can be spent closing the deal
+  
+  $1,000,000 from 1 person
+  - Tons can be spent closing the deal
+  
+  How to have 1M subs on insta
+  ----
+  
+  Instagram is based around consent.
+  
+  Follower
+  Influencer
+  
+  Convince 1,000,000 people to subscribe to you
+  
+  1. Appealing content
+    "Novelty"
+    "Beauty"
+    "Sexuality"
+    "Funny"
+    
+  2. Be famous
+    FOMO <-- fear (of missing something positive)
+    "car crash" <-- fear (of missing something negative)
+    
+  3. Dark arts
+    Buy followers
+      Cracked accounts
+      New accounts
+    Make your insta private
+      What's behind the curtain?
+      (follow to find out)
+      
+   Wasting time:
+   ----
+   
+   Existentialism -- You make your own meaning.
+   
+   Don't fall in funnels.
+   Don't be in skinner boxes.
+   Don't be influenced by advertising.
+   
+   output = f(x, y)
+   
+   f(x, y):
+    f(x-1, y-1)
+   
+   bubble sort: O(n^2)
+   for i in 0..n:
+    for j in i+1..n:
+      if j < i:
+        swap arr[i] and arr[j]
+   tree:
+   n inserts into a log(n) sized tree
+   7 3 4 6 10 5
+   
+   height: log(n)
+   --       7
+   --  3       10
+   --    4
+   --   5   6
+   
+   O(n * log(n))
+   
+   O(n) sort:
+   1 and 100
+   
+   int cnt[100] = {0}:
+   for i in 0..n:
+    cnt[arr[i]] += 1
+   for i in 0..sizeof(cnt):
+    print("i" * cnt[i])
+   
+   binary search:
+   find an element in a sorted list
+   
+   1 7 9 22 45 67 98
+   
+   bsearch(arr, 67):
+    lo = 0
+    hi = len(arr)
+    
+    mid = (lo+hi)/2
+    
+    arr[mid] is 45
+    lo = mid
+    
+    45 67 98
+    
+    mid = 67
+    
+    Are you learning something from nature?
+    Good
+    
+    Are you learning something from people?
+    Bad
+    
+    Data science:
+    -- stats <-- sure
+    -- tooling used at company x <-- no
+    -- tooling that will go out of vogue <-- no
+    
+    College
+    ---
+    
+    Reject power over people
+    - Ignored by the system
+    - System cares deeply about power over people
+    
+    Embrace power over nature.
+    
+    Power over people used to be everthing.
+    Hunter gatherer tribe
+    
+    Power over people is waning
+    Power over nature is waxing
+    
+    Build a knowledge tree
+    ---
+    
+    -- New information fits into the tree
+    -- "interplation" is possible
+    -- Framework for understanding
+    
+    Elon roots knowledge tree in Physics (modernist)
+    I root knowledge tree in Information (postmodernist)
+    
+    How to explain anything?
+    
+    Bezos
+    ---
+    
+    Operations mastermind:
+    
+    Amazon ships many packages
+    "Amazon shipping plan" is "sales pitch" to UPS
+    UPS gives real rate
+    Bezos wins
+    
+    backspace
+    ---
+    
+    Are modern programming languages already the best way to describe what you want?
+    
+    How much can "automated programming" help?
+    
+    Does there exist a more concise programming language?
+    aka what is the next GC?
+    
+    Compilers should do more search.
+
+     char *a() {
+        char *ret = (char *)malloc(6);
+        strcpy(ret, "hello");
+        return ret;  
+    }
+
+    int main() {
+      int i=0;
+      while (1){
+        char *c = a();
+        if (i%10000 == 0) printf("%s\n", c);
+        free(c);
+        i++;
+     // fix the bug ( burn out of memory)
+     
+     ## Pascals mugging..
+     
+     
+
