@@ -1,8 +1,8 @@
 ## geo hot >> what is programming? twitch streaming ( Date of stream 31 Jul 2020)
 
-프로그래밍 이란 무엇일까? (What is Programming ?)
+(What is Programming ?)
 
-일단 프로그램에 정의는 뭘까? (What is the definition of a program)
+(What is the definition of a program)
 
 Program :
   Input -> Computation -> Output
@@ -159,7 +159,7 @@ Program :
     
     Pure model:
     Domain -> Funcion -> Range
-    y=f(x) // 대부분의 계산은 불확실성이 있다. 무언가를 완전히 이해할 수 있는 범위 내에서 출력해야 한다.
+    y=f(x)
     
    Figuring out how to make the fuction behave how you want.
    
@@ -168,14 +168,14 @@ Program :
    High Brow Sofeware Engineering
   ---
   1.Understand a complex system
-  2.Modify the system to add a feature >. 기능을 추가하도록 시스템을 수정한다.
-  3.Ship the new system (test well and stuff) > 테스트 웰과 같은 의미의 새로운 시스템을 제공합니다.
+  2.Modify the system to add a feature
+  3.Ship the new system (test well and stuff)
  
   Machine Learning Engineer
   ----
-  1. Download a paper >> 알고리즘 논문을 다운받아서
-  2. Implement it >> 그것을 코드(모델)로 구현해 낸다.
-  3. Keep doing this until you have skills >> 이 기술을 가질때까지 이걸 계속하라.
+  1. Download a paper
+  2. Implement it
+  3. Keep doing this until you have skills
   
   How to get a girlfriend
   ----
