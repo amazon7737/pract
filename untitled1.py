@@ -88,7 +88,7 @@ bstate = np.zeros(64, np.uint8)
 bstate = bstate.reshape(8, 8)
 
 # 0-3 columns to binary
-def fucking(self):
+def fang(self):
     
   state[0] = (bstate>>3)&1
   state[1] = (bstate>>2)&1
